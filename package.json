@@ -6,7 +6,7 @@
   "scripts": {
  
         "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+ "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -29,5 +29,5 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "vite": "^5.1.0"
   },
-  "homepage": "https://gi1dong.github.io/emotionalDiary/"
+  "homepage": "https://gi1dong.github.io/emotionalDiary"
 }
